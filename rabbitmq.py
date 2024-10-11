@@ -53,10 +53,10 @@ class RabbitMQ:
         """
         method for connecting to RabbitMQ.
         Params:
-            rabbit_host (str): rabbitmq host ENV string.
-            rabbit_port (int): rabbitmq port ENV string.
-            rabbit_username (str): rabbitmq username ENV string.
-            rabbit_password (str): rabbitmq password ENV string.
+            rabbit_host (str): rabbitmq host ENV variable name.
+            rabbit_port (str): rabbitmq port ENV variable name.
+            rabbit_username (str): rabbitmq username ENV variable name.
+            rabbit_password (str): rabbitmq password ENV variable name.
         """
         self._set_host(rabbit_host)
         self._set_port(rabbit_port)
